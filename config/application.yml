@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: item-service
+    
+server:
+  port: 8001
+
+eureka:  instance:    hostname: localhost
+    ip-address: 127.0.0.1
+  client:    service-url:      defaultZone: http://eureka:2001/eureka
